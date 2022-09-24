@@ -1,0 +1,44 @@
+@import 'variables';
+
+// Language: scss
+body{
+    background-color: $lightgray;
+    font-family: $font-family;
+    display: block;
+    font-size: $font-size;
+
+    .container {
+        position: block;  
+        width: 300px; 
+        background: #f4f5f4;
+        margin-top: 90px;
+        margin-left: auto; 
+        margin-right: auto;
+        border-radius: 15px;
+        height: 440px;
+        width: 280px;
+        
+        .qr-code-image {
+            height: 250px;
+            width: 250px;
+            border-radius: 10px;    
+            margin: 15px;
+            margin-bottom: 0px;
+         }
+        
+        .qr-code-text {
+            text-align: center;
+            font-size: $font-weight-normal;
+            margin-top: 5%;
+            padding: 0px 25px;
+        }
+
+        .brief{
+            text-align: center;
+            font-size: 15px;
+            font-weight: $font-weight-normal;
+            color: $grayishblue;
+            padding: 0px 10px 10px 10px;
+        }
+     }  
+}
